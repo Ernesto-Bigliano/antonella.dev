@@ -1,0 +1,84 @@
+
+
+Hola : En es repositorio necesito hacer los siguientes trabajos :
+
+
+1: descargar repositorio => https://github.com/Ernesto-Bigliano/test-antonella.git
+
+2: crear 5 archivos, no importa su extencion. 3 de ellos deben estar dentro de una carpeta diferente
+
+3: elimina el archivo de las instrucciones una vez que estas segura de que no te falta nada 
+
+4:hacer el commit correspondiente =>
+  El comnit debe estar dentro de la rama que te paso a continuacion => la rama se llama => "Antonella-dev."
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main ==> ojo !! esta es la rama que tenes que cambiar 
+
+git remote add origin https://github.com/Ernesto-Bigliano/test-antonella.git
+git push -u origin main 
+
+hacer un "log"
+comparar los cambios con "Diff" 
+
+1. Ver las ramas remotas disponibles
+
+Primero, asegúrate de que tu repositorio local esté sincronizado con GitHub:
+
+git fetch
+
+Luego, verifica qué ramas remotas están disponibles:
+
+git branch -r
+
+Esto listará todas las ramas remotas como origin/nombre-de-la-rama.
+
+2. Descargar la rama y cambiarte a ella
+
+Para traer la rama desde GitHub y cambiarte a ella directamente, usa:
+
+git checkout "nombre-de-la-rama"
+
+O, si estás usando el comando más moderno:
+
+git switch nombre-de-la-rama
+
+Esto descargará automáticamente la rama remota y la configurará para que rastree la rama remota en GitHub.
+
+
+Termina haciendo un push.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+................................................	FELICITACIONES----------------!!!!!!!     ............................................
